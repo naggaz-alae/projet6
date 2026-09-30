@@ -99,8 +99,8 @@ npm run dev
 
 ## Team
 
-- **Amine**
-- **Anass**
-- **me**: the AI and Python side. I trained the CIFAR-10 classifier in Python, wired it into the backend so every uploaded image gets labelled, and built the AI-based similar-image search.
+Built by Amine, Anass and me.
+
+I took care of the AI and Python side. I trained the CIFAR-10 classifier in Python, wired it into the backend so every uploaded image gets labelled, and built the AI-based similar-image search.
 
 Built in 2025 at the University of Bordeaux, as part of the L3 software development project.
