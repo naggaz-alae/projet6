@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import "tailwindcss";
+@import 'primeicons/primeicons.css';
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --swiper-navigation-size: 15px;
+  --swiper-navigation-color: black;
+}
+
+@theme {
+  --color-navy: #001F3F;
+  --color-beige: #F5F5DC;
+  --color-main: #5ebf88;
+  --color-main-dark: #35704f;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.bg-form{
+  background: linear-gradient(to right, var(--color-main) 20%, var(--color-main-dark));
+}
+
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.p-toast-message-icon{
+  margin-top: 4px !important;
+}
